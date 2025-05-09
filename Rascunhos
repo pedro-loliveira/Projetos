@@ -53,8 +53,10 @@ No geral, pequenos comercios com ou sem perfis em sites Shopee, Olx, etc.
 #### 8 - Gerador de Etiquetas com Código de Barras <h5>
 * Adicionar oq ele faz.
 
-> Utilizar python, banco de dados local e tkinter. 
-> Banco de dados irá guardar informações como descrição do produto, codigo numerico, codigo de barras referente ao codigo numerico.
+> - Utilizar python, banco de dados local e tkinter. 
+> - Banco de dados irá guardar informações como descrição do produto, codigo numerico, codigo de barras referente ao codigo numerico.
+> - Banco de dados pode tambem ter uma tabela secundaria, guardando etiquetas geradas e a data e que elas foram geradas, adicionando data de fabricação/validade.
+> - Adicionar tamanhos em CM em que o usuario pode imprimir as etiquetas, referente a algumas impressoras de etiquetas famosas.
 
 #### 9 - etrabalho - intermediario de serviços freelancers -   <h5>
 
