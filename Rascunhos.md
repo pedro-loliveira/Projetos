@@ -149,3 +149,5 @@
 > - **API WhatsApp:** Twilio WhatsApp API ou Z-API.  
 > - **Linguagem:** Node.js ou Python (Flask + Twilio).  
 > - **Banco de dados:** Firebase ou MongoDB para registro de plantões.  
+
+testinho
