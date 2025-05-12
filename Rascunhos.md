@@ -83,7 +83,7 @@
 #### 6. Simulador de Lucro de Delivery
 
 **Descrição**  
-- Aplicativo (web ou mobile) para calcular precificação de pratos, considerando ingredientes, mão de obra e taxas de delivery.
+- Aplicativo (web e/ou mobile) para calcular precificação de pratos, considerando ingredientes, mão de obra e taxas de delivery.
 
 **Funcionalidades**  
 - Entrada de custo de ingredientes e horas de preparo.  
@@ -149,3 +149,5 @@
 > - **API WhatsApp:** Twilio WhatsApp API ou Z-API.  
 > - **Linguagem:** Node.js ou Python (Flask + Twilio).  
 > - **Banco de dados:** Firebase ou MongoDB para registro de plantões.  
+
+testinho
