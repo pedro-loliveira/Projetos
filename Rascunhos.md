@@ -1,4 +1,4 @@
-#### 1. Controle de Vendass
+#### 1. Controle de Vendas
 
 **Descrição**   
 - Website genérico com frontend simples.  
