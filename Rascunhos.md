@@ -1,69 +1,150 @@
-> https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open
+#### 1. Controle de Vendas
 
-#### 1 - Controle de Vendas <h5>
-* Web site generico.
-* Frontend simples.
-* Mudança de acordo com os padrões do Cliente/Empresa.
-* **Principais Cliente:** lojas de roupas, concessionarias, microempresas, etc. 
-No geral, pequenos comercios com ou sem perfis em sites Shopee, Olx, etc, que querem uma loja virtual apenas para seu comercio.
+**Descrição**  
+- Website genérico com frontend simples.  
+- Layout e identidades visuais personalizáveis de acordo com os padrões do cliente/empresa.
 
-> Comentario sobre o codigo, como será feito, possiveis bibliotecas e linguagens, etc.
+**Público-alvo / Clientes principais**  
+- Lojas de roupas  
+- Concessionárias  
+- Microempresas e pequenos comércios (com ou sem presença em marketplaces como Shopee, OLX etc.) que desejam uma loja virtual própria.
 
-#### 2 - Bolsinha <h5> 
-* App notificações, especialmente para trabalhadores na area da Bolsa de Valores.
-* Focado em widgets e notificações, o usuario indica sobre quais informações (moedas, ações, etc) necessita de atualizações em tempo real.
-* **Intuito:** acompanhar com facilidade o desempenho diário das ações e o mercado.
+> Comentários técnicos:  
+> - **Frontend:** React, Vue ou Angular; design responsivo com Tailwind ou Bootstrap.  
+> - **Backend:** Node.js (Express), Django ou Laravel.  
+> - **Banco de dados:** MySQL, PostgreSQL ou MongoDB.  
+> - **Deploy:** Docker + CI/CD (GitHub Actions, GitLab CI).
 
-> Comentario sobre o codigo, como será feito, possiveis bibliotecas e linguagens, etc.
+---
 
-#### 3 - sistema de gastos pessoais ( gerador de nota ) - "utilizando framework, banco de dados <h5>
-* Website para organizar finanças pessoais.
-* Focado em organizar e prever gastos futuros.
+#### 2. Bolsinha
 
-> Utilizando Python, Banco de dados (nuvem ou local), e algum Framework (Streamlit tem um bom uso).
-> Design simples e facil para o usuario, com três tabelas: Entrada, Variaveis e Fixos. 
-> * **Entrada:** Nao sendo necessario fazer calculos, apenas o usuario inputar toda entrada e a data.
-> * **Variaveis:** Nao sendo necessario fazer calculos, apenas o usuario inputar toda entrada e a data.
-> * **Fixos:** Necessario atenção, pois o usuario tera gastos fixos com data fixas que irão terminar(parcelamentos) e gastos fixos que não ha datas para terminar, porem um dia pode acabar (assinaturas). 
+**Descrição**  
+- Aplicativo focado em notificações financeiras em tempo real.  
+- O usuário escolhe ativos (ações, criptomoedas, índices) e recebe alertas customizáveis.
 
-#### 4 - Extensão de Preços de Produtos em E-commerce <h5>
+**Intuito**  
+- Facilitar o acompanhamento diário de desempenho de ativos e tomadas de decisão rápidas.
 
-> Comentario sobre o codigo, como será feito, possiveis bibliotecas e linguagens, etc.
+> Comentários técnicos:  
+> - **Mobile/Web:** Flutter ou React Native para app; PWA se for web.  
+> - **Comunicação em tempo real:** WebSockets (Socket.IO) ou Firebase Realtime Database.  
+> - **APIs de mercado:** Alpha Vantage, IEX Cloud ou Binance API.  
+> - **Notificações:** Firebase Cloud Messaging ou OneSignal.
 
-#### 5- Website de Reservas <h5>
+---
 
-* Criar um website generico, de facil modelagem frontend para reservas de variados tipos de comercio.
-* O maior trabalho será na parte de frontend, onde terá de adaptar ao estabelecimento. A reserva podendo ser visualizada em modo de mapa, lista, etc.
+#### 3. Sistema de Gastos Pessoais (Gerador de Notas)
 
-> Comentario sobre o codigo, como será feito, possiveis bibliotecas e linguagens, etc.
+**Descrição**  
+- Website/​app para organizar finanças pessoais e emitir notas de gasto.  
+- Três módulos principais: Entrada, Variáveis e Fixos.
 
-#### 6 - Simulador de Lucro de Delivery para Restaurantes<h5>
+**Funcionalidades**  
+- **Entrada:** registro simples de receitas com data.  
+- **Variáveis:** registro de despesas variáveis (sem cálculos automáticos).  
+- **Fixos:** controle de parcelas (com data de término) e assinaturas (sem data fixa, mas possibilidade de cancelamento).
 
-* App para celular/computador.
-* Auxiliar em duas areas: Calcular precificação com base nos ingredientes, mao de obra e gastos; retornar o valor do prato, ja considerando taxas de aplicativos de delivery como iFood e UberEats.
+> Comentários técnicos:  
+> - **Linguagem:** Python (FastAPI ou Django) ou Node.js (Express).  
+> - **Framework UI:** Streamlit para protótipo rápido ou React/Vue para SPA.  
+> - **Banco de dados:** SQLite (local) ou PostgreSQL (nuvem).  
+> - **Gerador de nota:** ReportLab (Python) ou PDFKit.
 
-> Comentario sobre o codigo, como será feito, possiveis bibliotecas e linguagens, etc.
+---
 
-#### 7 - Sistema de Gestão de Estoque para Brechós ou Lojas Pequenas - Cadastro de peças, controle de entrada/saída, quantidade e valor <h5>
-* App simples onde o usuario cadastra itens e valores (tambem atualiza cada nome/valor), gera um codigo aleatorio para cada um, faz o controle da quantidade de entrada/saida de cada um.
-* Deixar o visual o metodo de cadastro/atualização o mais simples possivel, visando que e um trabalho massante e manual.
-* Adicionara possibilidade de adicionar um gerador de codigos de barra junto, assim conectando com uma possivel impressora de etiquetas. 
+#### 4. Extensão de Preços de Produtos em E-commerce
 
-> Comentario sobre o codigo, como será feito, possiveis bibliotecas e linguagens, etc.
+**Descrição**  
+- Plugin/​extensão para navegador que monitora e coleta preços de produtos em sites de e-commerce.
 
-#### 8 - Gerador de Etiquetas com Código de Barras <h5>
-**Substituir pelo bot do youtube**
+> Comentários técnicos:  
+> - **Tecnologia:** Extensão Chrome/Firefox (JavaScript, Manifest V3).  
+> - **Web scraping:** Puppeteer ou Playwright.  
+> - **Armazenamento:** IndexedDB ou API REST para salvar dados.  
+> - **Dashboards:** Vue + Chart.js para visualização de histórico de preços.
 
-#### 9 - eTrabalho <h5>
+---
 
-* App modible para usuarios procurarem freelancers de diversas areas para trabalhos, exemplos: design, construção civil, culinaria, delivery, marido de alugue, etc.
+#### 5. Website de Reservas
 
-> Comentario sobre o codigo, como será feito, possiveis bibliotecas e linguagens, etc.
+**Descrição**  
+- Plataforma genérica de reservas para diversos tipos de estabelecimentos (restaurantes, hotéis, salões etc.).  
+- Visualização de disponibilidade em lista ou mapa.
 
-#### 10 - Plantao  <h5>
+> Comentários técnicos:  
+> - **Frontend:** Next.js (React) com integração a Mapbox ou Leaflet.  
+> - **Backend:** Django REST Framework ou Ruby on Rails.  
+> - **Banco de dados:** PostgreSQL (PostGIS, se usar mapas).  
+> - **Autenticação:** OAuth2 / JWT.
 
-* Criação de um bot de wtspp que irá ter um menu, informando se há plantões a serem cobertos.
-* Bot automaticamente preencher um plantão caso um colaborador requisitar pelo menu dele.
-* Possivelmente utilizado por profissionais como medicos, seguranças, bombeiros, etc.
+---
 
-> Comentario sobre o codigo, como será feito, possiveis bibliotecas e linguagens, etc.
+#### 6. Simulador de Lucro de Delivery
+
+**Descrição**  
+- Aplicativo (web ou mobile) para calcular precificação de pratos, considerando ingredientes, mão de obra e taxas de delivery.
+
+**Funcionalidades**  
+- Entrada de custo de ingredientes e horas de preparo.  
+- Seleção de taxa de plataformas (iFood, UberEats, etc.).  
+- Cálculo automático de preço ideal e margem de lucro.
+
+> Comentários técnicos:  
+> - **Linguagem:** Python (Flask/Streamlit) ou JavaScript (Node.js).  
+> - **UI:** Streamlit para protótipo; React/React Native para versão final.  
+> - **Banco de dados:** SQLite ou Firebase Firestore.  
+
+---
+
+#### 7. Sistema de Gestão de Estoque para Brechós / Lojas Pequenas
+
+**Descrição**  
+- App simples para cadastro de peças, controle de entrada/saída, quantidade e valor.  
+- Geração automática de código único (UUID) para cada item.
+
+**Funcionalidades**  
+- Cadastro/atualização de itens (nome, descrição, preço).  
+- Controle de movimentação (entrada e saída de estoque).  
+- Integração opcional com leitor/impressora de código de barras.
+
+> Comentários técnicos:  
+> - **Frontend:** Electron (desktop) ou React + Tailwind.  
+> - **Backend:** Node.js + Express ou Python + FastAPI.  
+> - **Banco de dados:** SQLite ou PostgreSQL.  
+> - **Biblioteca de códigos de barras:** JsBarcode, python-barcode.
+
+---
+
+#### 8. Gerador de Etiquetas com Código de Barras
+
+> **Observação:** substituir por bot do YouTube.
+
+---
+
+#### 9. eTrabalho
+
+**Descrição**  
+- App móvel/web para conectar freelancers a clientes em diversas áreas (design, construção civil, culinária, serviços gerais etc.).  
+- Divisão por áreas de atuação: construção, mecânica, CAD, 3D, arquitetura etc.
+
+> Comentários técnicos:  
+> - **Mobile:** Flutter ou React Native.  
+> - **Backend:** Firebase + Cloud Functions ou Node.js + GraphQL.  
+> - **Pagamentos:** Stripe, PayPal ou MercadoPago.
+
+---
+
+#### 10. Plantão (Bot de WhatsApp)
+
+**Descrição**  
+- Bot de WhatsApp com menu para consulta e preenchimento de plantões (data, horário).  
+- Usuário escolhe plantão e, ao confirmar, grava matrícula ou código vinculado.
+
+**Público-alvo**  
+- Profissionais que trabalham por plantões: médicos, seguranças, bombeiros etc.
+
+> Comentários técnicos:  
+> - **API WhatsApp:** Twilio WhatsApp API ou Z-API.  
+> - **Linguagem:** Node.js ou Python (Flask + Twilio).  
+> - **Banco de dados:** Firebase ou MongoDB para registro de plantões.  
