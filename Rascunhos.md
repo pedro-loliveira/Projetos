@@ -48,10 +48,10 @@
 - **Fixos:** controle de parcelas (com data de término) e assinaturas (sem data fixa, mas possibilidade de cancelamento).
 
 > Comentários técnicos:  
-> - **Linguagem:** Python (FastAPI ou Django) ou Node.js (Express).  
-> - **Framework UI:** Streamlit para protótipo rápido ou React/Vue para SPA.  
-> - **Banco de dados:** SQLite (local) ou PostgreSQL (nuvem).  
-> - **Gerador de nota:** ReportLab (Python) ou PDFKit.
+> - **Linguagem:** Python (FastAPI ou Django) ou Node.js (Express).  <!-- usei python, mas nao utilizei nem fastapi nem django-->
+> - **Framework UI:** Streamlit para protótipo rápido ou React/Vue para SPA. <!-- Esta em streamlit ainda, rodando localmente-->  
+> - **Banco de dados:** SQLite (local) ou PostgreSQL (nuvem). <!-- esta criando um .db para o banco de dados-->  
+> - **Gerador de nota:** ReportLab (Python) ou PDFKit. <!-- nao adicionei, nao vejo necessidade, mas e uma boa funcionalidade para colocar futuramente -->
 
 ---
 
@@ -148,8 +148,8 @@
 - Adicionalmente fazer um calculo para quantidade de horas possiveis a serem feito plantão por colaborador e seus intervalos obrigatorio, exemplo:
     Roberto trabalhou 36h, tem direito a 36h de descanso, mas obrigatoriamente tem que descansar por 20h. Dentro desse descanso obrigatorio Roberto nao pode aceitar nenhum plantão.
 > Comentários técnicos:  
-> - **API WhatsApp:** Twilio WhatsApp API ou Z-API.  
-> - **Linguagem:** Node.js ou Python (Flask + Twilio).  
+> - **API WhatsApp:** Twilio WhatsApp API ou Z-API.  <!-- Testei o twillio e achei uma coisa complicada-->
+> - **Linguagem:** Node.js ou Python (Flask + Twilio).  <!-- Python e o dream, eu acho-->
 > - **Banco de dados:** Firebase ou MongoDB para registro de plantões.  
 
 testinho
