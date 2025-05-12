@@ -149,7 +149,6 @@
     Roberto trabalhou 36h, tem direito a 36h de descanso, mas obrigatoriamente tem que descansar por 20h. Dentro desse descanso obrigatorio Roberto nao pode aceitar nenhum plantão.
 > Comentários técnicos:  
 > - **API WhatsApp:** Twilio WhatsApp API ou Z-API.  <!-- Testei o twillio e achei uma coisa complicada-->
-> - **Linguagem:** Node.js ou Python (Flask + Twilio).  <!-- Python e o dream, eu acho-->
+> - **Linguagem:** Node.js ou Python (Flask + Twilio).  <!-- Python e o dream, eu acho -->
 > - **Banco de dados:** Firebase ou MongoDB para registro de plantões.  
 
-testinho
