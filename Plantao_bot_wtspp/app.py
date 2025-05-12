@@ -40,13 +40,13 @@ def reservar_plantoes(codigo, matricula):
         codigo=codigo, is_taken=False).first()
     if not plantao:
         session.close()
-        return f"❌ Plantão *{codigo}* não encontrado ou já reservado."
+        return f"Plantão *{codigo}* não encontrado ou já reservado."
     plantao.is_taken = True
     plantao.matricula = matricula
     plantao.reservado_em = datetime.datetime.now()
     session.commit()
     session.close()
-    return f"✅ Plantão *{codigo}* reservado com sucesso para matrícula *{matricula}*."
+    return f"Plantão *{codigo}* reservado com sucesso para matrícula *{matricula}*."
 
 
 @app.route('/whatsapp', methods=['POST'])
