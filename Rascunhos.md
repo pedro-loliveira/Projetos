@@ -1,8 +1,10 @@
-#### 1. Controle de Vendasss
+#### 1. Controle de Vendass
 
-**Descrição**  
+**Descrição**   
 - Website genérico com frontend simples.  
 - Layout e identidades visuais personalizáveis de acordo com os padrões do cliente/empresa.
+- lau lau
+
 
 **Público-alvo / Clientes principais**  
 - Lojas de roupas  
