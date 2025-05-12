@@ -60,9 +60,10 @@ No geral, pequenos comercios com ou sem perfis em sites Shopee, Olx, etc, que qu
 
 > Comentario sobre o codigo, como será feito, possiveis bibliotecas e linguagens, etc.
 
-#### 10 - Plantao médico - bot wpp <h5>
+#### 10 - Plantao  <h5>
 
 * Criação de um bot de wtspp que irá ter um menu, informando se há plantões a serem cobertos.
 * Bot automaticamente preencher um plantão caso um colaborador requisitar pelo menu dele.
+* Possivelmente utilizado por profissionais como medicos, seguranças, bombeiros, etc.
 
 > Comentario sobre o codigo, como será feito, possiveis bibliotecas e linguagens, etc.
