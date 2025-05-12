@@ -6,7 +6,7 @@
 * Frontend simples.
 * Mudança de acordo com os padrões do Cliente/Empresa.
 * **Principais Cliente:** lojas de roupas, concessionarias, microempresas, etc. 
-No geral, pequenos comercios com ou sem perfis em sites Shopee, Olx, etc.
+No geral, pequenos comercios com ou sem perfis em sites Shopee, Olx, etc, que querem uma loja virtual apenas para seu comercio.
 
 > Comentario sobre o codigo, como será feito, possiveis bibliotecas, etc.
 
@@ -60,8 +60,12 @@ No geral, pequenos comercios com ou sem perfis em sites Shopee, Olx, etc.
 
 #### 9 - etrabalho - intermediario de serviços freelancers -   <h5>
 
+* App modible para usuarios procurarem freelancers de diversas areas para trabalhos, exemplos: design, construção civil, culinaria, delivery, marido de alugue, etc.
+
 > Comentario sobre o codigo, como será feito, possiveis bibliotecas, etc.
 
 #### 10 - plantao médico - bot wpp <h5>
+
+* Descobrir como e sugerido plantão para medico.
 
 > Comentario sobre o codigo, como será feito, possiveis bibliotecas, etc.
