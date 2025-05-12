@@ -5,6 +5,7 @@ import plotly.express as px
 from datetime import datetime
 import calendar
 # Executar pelo terminal com = streamlit run .\Sistema_de_gastos_pessoais\CF.py
+
 # PROX ETAPA 1: ARRUMAR CALCULO DOS CARTÕES DE FUTUROS GASTOS, ETC.
 # PROX ETAPA 2: PERSONALIZAR, CORES, TITULOS, ETC.
 # PROX ETAPA 3: VERIFICAR POSSIBILISDADES DE COMPARTILHAMENTO, PASTAS, BANCO DE DADOS, ETC.
