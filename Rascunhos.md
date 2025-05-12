@@ -143,7 +143,8 @@
 
 **Público-alvo**  
 - Profissionais que trabalham por plantões: médicos, seguranças, bombeiros etc.
-
+- Adicionalmente fazer um calculo para quantidade de horas possiveis a serem feito plantão por colaborador e seus intervalos obrigatorio, exemplo:
+    Roberto trabalhou 36h, tem direito a 36h de descanso, mas obrigatoriamente tem que descansar por 20h. Dentro desse descanso obrigatorio Roberto nao pode aceitar nenhum plantão.
 > Comentários técnicos:  
 > - **API WhatsApp:** Twilio WhatsApp API ou Z-API.  
 > - **Linguagem:** Node.js ou Python (Flask + Twilio).  
