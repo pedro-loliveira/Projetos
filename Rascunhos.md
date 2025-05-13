@@ -166,4 +166,4 @@
 
 - Pesquisadores e estudantes que desejam análises rápidas de palestras, aulas e webinars no YouTube.
 
-- Profissionais de acessibilidade, para gerar transcrições automáticas e melhorar a usabilidade de vídeos.
+- Profissionais de acessibilidade, para gerar transcrições automáticas e melhorar a usabilidade de vídeos..
