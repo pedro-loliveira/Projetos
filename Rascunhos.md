@@ -48,9 +48,9 @@
 - **Fixos:** controle de parcelas (com data de término) e assinaturas (sem data fixa, mas possibilidade de cancelamento).
 
 > Comentários técnicos:  
-> - **Linguagem:** Python (FastAPI ou Django) ou Node.js (Express).  <!-- usei python, mas nao utilizei nem fastapi nem django-->
+> - **Linguagem:** Python (FastAPI ou Django) ou Node.js (Express).  <!-- usei python, mas nao utilizei nem fastapi nem django no momento atual-->
 > - **Framework UI:** Streamlit para protótipo rápido ou React/Vue para SPA. <!-- Esta em streamlit ainda, rodando localmente-->  
-> - **Banco de dados:** SQLite (local) ou PostgreSQL (nuvem). <!-- esta criando um .db para o banco de dados-->  
+> - **Banco de dados:** SQLite (local) ou PostgreSQL (nuvem). <!-- esta criando um .db para o banco de dados e rodando localmente-->  
 > - **Gerador de nota:** ReportLab (Python) ou PDFKit. <!-- nao adicionei, nao vejo necessidade, mas e uma boa funcionalidade para colocar futuramente -->
 
 ---
