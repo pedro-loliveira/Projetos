@@ -136,22 +136,14 @@
 
 > Comentários técnicos:
 Comentários técnicos:
-
-Linguagem: Python 3.7+
-
-Download de áudio: pytubefix
-
-Conversão/extração: ffmpeg-python (ou ffmpeg CLI)
-
-Transcrição: OpenAI Whisper (whisper-1)
-
-Resumo: OpenAI ChatCompletion (gpt-3.5-turbo)
-
-Backend: Python + FastAPI (para expor endpoints de upload de URL e retorno de resumo)
-
-Configuração: variável OPENAI_API_KEY no ambiente
-
-Armazenamento temporário: diretório temporário para arquivos intermediários
+> - **Linguagem:** Python 3.7+
+> - **Download de áudio:** pytubefix
+> - **Conversão/extração:** ffmpeg-python (ou ffmpeg CLI)
+> - **Transcrição:** OpenAI Whisper (whisper-1)
+> - **Resumo:** OpenAI ChatCompletion (gpt-3.5-turbo)
+> - **Backend:** Python + FastAPI (para expor endpoints de upload de URL e retorno de resumo)
+> - **Configuração:** variável OPENAI_API_KEY no ambiente
+> - **Armazenamento temporário:** diretório temporário para arquivos intermediários
 
 ---
 
