@@ -118,9 +118,21 @@
 
 ---
 
-#### 8. Gerador de Etiquetas com Código de Barras
+#### 8. Bot de transcrição do YT
 
-> **Observação:** substituir por bot do YouTube.
+**Descrição** 
+
+- Um script em Python que automatiza o processo de baixar um vídeo do YouTube, extrair seu áudio, transcrever o conteúdo via Whisper (OpenAI) e gerar um resumo conciso usando o modelo ChatGPT. O usuário fornece apenas a URL do vídeo, e o programa cuida de todas as etapas: download, conversão de mídia, transcrição e sumarização, exibindo o resultado final no terminal ou salvando em arquivo.
+
+**Público-alvo**
+
+- Desenvolvedores que queiram integrar transcrição e NLP em seus aplicativos.
+
+- Criadores de conteúdo que precisam gerar resumos rápidos de vídeos para notas ou legendas.
+
+- Pesquisadores e estudantes que desejam análises rápidas de palestras, aulas e webinars no YouTube.
+
+- Profissionais de acessibilidade, para gerar transcrições automáticas e melhorar a usabilidade de vídeos.
 
 ---
 
@@ -151,19 +163,3 @@
 > - **API WhatsApp:** Twilio WhatsApp API ou Z-API.  <!-- Testei o twillio e achei uma coisa complicada-->
 > - **Linguagem:** Node.js ou Python (Flask + Twilio).  <!-- Python e o dream, eu acho -->
 > - **Banco de dados:** Firebase ou MongoDB para registro de plantões.  
-
-#### 11. Bot de transcrição do YT
-
-**Descrição** 
-
-- Um script em Python que automatiza o processo de baixar um vídeo do YouTube, extrair seu áudio, transcrever o conteúdo via Whisper (OpenAI) e gerar um resumo conciso usando o modelo ChatGPT. O usuário fornece apenas a URL do vídeo, e o programa cuida de todas as etapas: download, conversão de mídia, transcrição e sumarização, exibindo o resultado final no terminal ou salvando em arquivo.
-
-**Público-alvo**
-
-- Desenvolvedores que queiram integrar transcrição e NLP em seus aplicativos.
-
-- Criadores de conteúdo que precisam gerar resumos rápidos de vídeos para notas ou legendas.
-
-- Pesquisadores e estudantes que desejam análises rápidas de palestras, aulas e webinars no YouTube.
-
-- Profissionais de acessibilidade, para gerar transcrições automáticas e melhorar a usabilidade de vídeos..
